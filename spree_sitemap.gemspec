@@ -21,13 +21,13 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_core', '~> 3.1.0.beta'
+  s.add_runtime_dependency 'spree_core', '>= 3.1.0'
   s.add_runtime_dependency 'sitemap_generator', '~> 5.1.0'
 
-  s.add_development_dependency 'database_cleaner', '~> 1.4.0'
-  s.add_development_dependency 'factory_girl', '~> 4.4'
+  s.add_development_dependency 'database_cleaner', '~> 1.5.0'
+  s.add_development_dependency 'factory_girl', '~> 4.8'
   s.add_development_dependency 'ffaker'
-  s.add_development_dependency 'rspec-rails', '~> 3.2.0'
+  s.add_development_dependency 'rspec-rails', '~> 3.5'
   s.add_development_dependency 'sqlite3', '~> 1.3.10'
   s.add_development_dependency 'simplecov', '~> 0.9.0'
   s.add_development_dependency 'guard-rspec'
